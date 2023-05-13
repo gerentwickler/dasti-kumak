@@ -6,8 +6,8 @@
 * You can leave **feedback** to make me and/or my project better.
 * You can **help** or **collaborate** with this project, I will always be **happy**!
 ## In progress 🔄
-* **PayPal Payment** integration.
+* Design.
 ## Done ✅
-Nothing
+* **PayPal Payment** integration.
 ## Problems 🆘
-Nothing
+* **PayPal Buissnes Account** for switching from **Sandbox** to **Live**.
