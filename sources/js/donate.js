@@ -10,9 +10,9 @@ paypal.Buttons({
       purchase_units: [{
         amount: {
           currency_code: "USD",
-          value: "100.00",
+          value: "0.99",
         }
       }]
     });
   }
-}).render("#application");
+}).render("#paypal-payment");

@@ -1,0 +1,164 @@
+:root {
+    --application-font-family: Arial, "Helvetica Neue", Helvetica, sans-serif
+}
+
+body {
+    font-family: var(--appliction-font-family);
+}
+
+#application,
+.application-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    font-weight: 700;
+    padding: 16px 24px;
+    letter-spacing: 2px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: red;
+    color: var(--application-background-color);
+}
+
+.button:hover {
+    background-color: darkred;
+}
+
+.paragraph {
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+.heading {
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.logotype {
+    font-size: 32px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: cursive;
+    text-transform: capitalize;
+    color: var(--application-color);
+}
+
+.heading {
+    text-transform: capitalize;
+    margin-bottom: 24px;
+}
+
+.application-header {
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+
+.container {
+    padding: 0 16px;
+    margin: 0 auto;
+    max-width: 1008px;
+}
+
+.header-container,
+.footer-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-bottom: 4px solid var(--application-color);
+    background-color: var(--application-background-color);
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-list {
+    margin: 0;
+    display: flex;
+}
+
+.navigation-list-item {
+    list-style: none;
+    margin-right: 24px;
+}
+
+.navigation-list-item:last-child {
+    margin-right: 0;
+}
+
+.navigation-link {
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--application-color);
+}
+
+.footer {
+    display: flex;
+    height: 128px;
+    align-items: center;
+    border-top: 4px solid #000;
+}
+
+.main-section {
+    margin-top: 64px;
+}
+
+.main-section:last-child {
+    margin-bottom: 64px;
+}
+
+.welcome {
+    margin-top: 0;
+    height: 100vh;
+    display: flex;
+    color: white;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-image: url(what-we-do.png);
+}
+
+.welcome-heading {
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.welcome-subheading {
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+
+.about_us-container {
+    display: flex;
+    align-items: center;
+}
+
+.about_us-context,
+.about_us-image {
+    display: inline-block;
+    max-width: 50%;
+}
+
+.about_us-context {
+    margin-right: 16px;
+}
+
+.donate_us {
+    text-align: center;
+}
