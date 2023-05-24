@@ -136,6 +136,7 @@ body {
 .welcome-heading {
     font-size: 88px;
     font-weight: 700;
+    color: lightblue;
     margin-bottom: 16px;
 }
 
